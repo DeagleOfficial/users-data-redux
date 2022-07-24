@@ -18,11 +18,6 @@ const Buttons = () => {
         const parsedData = await res.json()
         dispatch(update(parsedData.data))
         setLoading(false)
-        // .then(res => res.json())
-        // .then(res => console.log(res.data))
-        // .then(res => dispatch(update(res.data)))
-        // .then(setLoading(false))
-
     }
 
     useEffect(() => {
